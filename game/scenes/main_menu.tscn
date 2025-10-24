@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://b35hbvw40ychb"]
+
+[node name="MainMenu" type="MainMenu"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Container" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -215.0
+offset_top = -85.5
+offset_right = 215.0
+offset_bottom = 85.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="PlayVsAi" type="Button" parent="Container"]
+layout_mode = 2
+text = "Play Vs AI"
+
+[node name="Host" type="Button" parent="Container"]
+layout_mode = 2
+text = "Host"
+
+[node name="Join" type="Button" parent="Container"]
+layout_mode = 2
+text = "Join"
+
+[node name="Settings" type="Button" parent="Container"]
+layout_mode = 2
+text = "Settings"
+
+[node name="Exit" type="Button" parent="Container"]
+layout_mode = 2
+text = "Exit"
